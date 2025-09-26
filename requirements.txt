@@ -2,7 +2,7 @@ rasa==3.6.21
 tensorflow==2.12.0
 tqdm==4.65.0
 scikit-learn==1.0.0
-numpy==1.20.1
+numpy==1.23.5
 pillow==9.5.0
 requests==2.31.0
 aiohttp==3.9.0
