@@ -1,0 +1,54 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "accept": 0,
+        "back": 1,
+        "cybersecurity": 2,
+        "fundamental_principles": 3,
+        "goodbye": 4,
+        "greet": 5,
+        "nlu_fallback": 6,
+        "out_of_scope": 7,
+        "reject": 8,
+        "restart": 9,
+        "session_start": 10,
+        "start": 11,
+        "stop": 12
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_accept_cybersecurity": 13,
+        "utter_accept_fundamental_principles": 14,
+        "utter_continue_learning": 15,
+        "utter_cybersecurity": 16,
+        "utter_fundamental_principles": 17,
+        "utter_goodbye": 18,
+        "utter_greet": 19,
+        "utter_reject": 20,
+        "utter_start": 21,
+        "utter_stop": 22
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

@@ -1,0 +1,32 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"reject\"}}]": "utter_reject",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"reject\"}}, {\"prev_action\": {\"action_name\": \"utter_reject\"}, \"user\": {\"intent\": \"reject\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}]": "utter_accept7_backup",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}, {\"prev_action\": {\"action_name\": \"utter_accept7_backup\"}, \"user\": {\"intent\": \"accept7\"}}]": "utter_continue_learning",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}, {\"prev_action\": {\"action_name\": \"utter_accept7_backup\"}, \"user\": {\"intent\": \"accept7\"}}, {\"prev_action\": {\"action_name\": \"utter_continue_learning\"}, \"user\": {\"intent\": \"accept7\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept2\"}}]": "utter_accept2_principles",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept2\"}}, {\"prev_action\": {\"action_name\": \"utter_accept2_principles\"}, \"user\": {\"intent\": \"accept2\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"stop\"}}]": "utter_stop",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"stop\"}}, {\"prev_action\": {\"action_name\": \"utter_stop\"}, \"user\": {\"intent\": \"stop\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept2\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}]",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"stop\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}, {\"prev_action\": {\"action_name\": \"utter_accept7_backup\"}, \"user\": {\"intent\": \"accept7\"}}, {\"prev_action\": {\"action_name\": \"utter_continue_learning\"}, \"user\": {\"intent\": \"accept7\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"reject\"}}, {\"prev_action\": {\"action_name\": \"utter_reject\"}, \"user\": {\"intent\": \"reject\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}, {\"prev_action\": {\"action_name\": \"utter_accept7_backup\"}, \"user\": {\"intent\": \"accept7\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"reject\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept2\"}}, {\"prev_action\": {\"action_name\": \"utter_accept2_principles\"}, \"user\": {\"intent\": \"accept2\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"stop\"}}, {\"prev_action\": {\"action_name\": \"utter_stop\"}, \"user\": {\"intent\": \"stop\"}}]",
+      "predicting default action with intent restart"
+    ]
+  }
+}

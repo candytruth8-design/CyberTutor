@@ -1,0 +1,604 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hwfa
+    - afa
+    - awfa
+    - whatsup
+    - xup
+    - sup
+    - whats good
+    - what's up
+    - watsup
+    - wassup
+
+- intent: accept
+  examples: |
+    - yes
+    - yh
+    - yeah
+    - of course
+    - that sounds good
+    - ok
+    - okay
+    - no problem
+    - no p
+    - no probs
+    - no prob
+    - yes please
+    - yes pls 
+    - do it 
+    - alright 
+    - alryt 
+    - aiit 
+    - lets go 
+    - oya na
+    - sure
+    - oya explain
+    - abeg go on
+    - i dey hear you
+    - tell me more
+    - carry on
+    - continue
+    - go on
+    - talk your own
+    - go ahead
+    - make i hear
+    - i wan know
+    -correct, go on
+    - i dey with you
+    - explain am
+    - na true, continue
+    - oya teach me
+    - abeg continue
+    - okay tell me
+    - i dey follow you
+    - drop am
+    - yes boss
+    - explain better
+    - let's hear
+    - i gree
+    - no stress, go on
+    - continue abeg
+    - yes now
+    - oya break it down
+    - carry go
+    - i like this, continue
+    - explain small
+    - yes yes
+    - no problem, go ahead
+    - true talk, explain more
+    - i dey curious
+    - abeg gist me
+    - yeah explain
+    - na so, continue
+    - oya run am
+    - okay boss, go on
+    - teach me well
+    - no wam
+    - no lele 
+    - no issues
+    - no wahala 
+    - no ish
+ 
+- intent: reject
+  examples: |
+    - no
+    - never
+     
+- intent: start
+  examples: |
+    - y
+    - Y
+
+- intent: stop
+  examples: |
+    - n
+    - N
+- intent: accept2
+  examples: |
+    - F
+    - f
+
+- intent: accept3
+  examples: |
+    - E 
+    - e 
+
+- intent: accept4
+  examples: |
+     - h 
+     - H 
+
+- intent: accept5
+  examples: |
+     - A 
+     - a 
+
+- intent: accept6
+  examples: |
+     - z  
+     - Z 
+
+- intent: accept7
+  examples: |
+     - L
+     - l 
+     
+- intent: accept8
+  examples: |
+     - m 
+     - M
+
+- intent: accept9
+  examples: |
+     - v 
+     - V
+
+- intent: accept0 
+  examples: |
+     - w  
+     - W   
+
+- intent: cybersecurity
+  examples: |
+    - cyber security
+    - cybersecurity
+    - tell me about cyber security
+    - i want cyber security
+    - cybersec
+    - i pick cyber security
+    - lets do cyber security
+
+- intent: principles 
+  examples: |
+    - fundamental principles of cyber security
+    - fundamentals
+    - cyber security principles
+    - principles
+    - give me fundamentals
+    - i pick fundamentals
+
+- intent: encryption
+  examples: |
+    - encryption
+    - i pick encryption
+    - teach me encryption
+    - number 3
+
+- intent: hashing
+  examples: |
+    - hashing
+    - hash
+    - hashing topic
+    - i want hashing
+
+- intent: authentication
+  examples: |
+    - authentication
+    - auth
+    - login
+
+- intent: authorization
+  examples: |
+    - authorization
+    - access
+
+- intent: backup
+  examples: |
+    - backup
+    - data backup
+    - i want backup
+    - teach me backup
+
+- intent: network
+  examples: |
+    - network
+    - networks
+    - network and its types
+    - types of network
+    - i want network
+
+- intent: vulnerabilities
+  examples: |    
+    - vulnerabilities
+    - weakness
+    - loopholes
+    - security holes
+    - vulnerability
+    - i want vulnerabilities
+
+- intent: threat
+  examples: |
+    - threat
+    - cyber threats
+    - i want threats
+
+- intent: developer
+  examples: |
+    - Who developed Cyber Tutor?
+    - Who developed Cyber Tutor
+    - Who developed you?
+    - Who developed you
+    - Tell me the developer of Cyber Tutor
+    - Tell me your developer
+    - Who created Cyber Tutor?
+    - Who created Cyber Tutor
+    - Who created you?
+    - Who created you
+    - Who is behind Cyber Tutor?
+    - Who is behind Cyber Tutor
+    - Who is behind you?
+    - Who is behind you
+    - Who made Cyber Tutor?
+    - Who made Cyber Tutor
+    - Who made you?
+    - Who made you
+    - Who built Cyber Tutor?
+    - Who built Cyber Tutor
+    - Who built you?
+    - Who built you
+    - Who is the author of Cyber Tutor?
+    - Who is the author of Cyber Tutor
+    - Who is your author?
+    - Who is your author
+    - Who designed Cyber Tutor?
+    - Who designed Cyber Tutor
+    - Who designed you?
+    - Who designed you
+    - Who programmed Cyber Tutor?
+    - Who programmed Cyber Tutor
+    - Who programmed you?
+    - Who programmed you
+    - Who is responsible for developing Cyber Tutor?
+    - Who is responsible for developing Cyber Tutor
+    - Who is responsible for developing you?
+    - Who is responsible for developing you
+
+- intent: namer
+  examples: |
+    - Who named Cyber Tutor?
+    - Who named Cyber Tutor
+    - Who named you?
+    - Who named you
+    - Who gave Cyber Tutor its name?
+    - Who gave Cyber Tutor its name
+    - Who gave you your name?
+    - Who gave you your name
+    - Who is responsible for naming Cyber Tutor?
+    - Who is responsible for naming Cyber Tutor
+    - Who is responsible for naming you?
+    - Who is responsible for naming you
+    - Tell me who named Cyber Tutor
+    - Tell me who named you
+
+- intent: assistance
+  examples: |
+    - I need more help
+    - Can you help me further?
+    - Can you help me further
+    - I need more explanation
+    - I don’t understand
+    - Please assist me
+    - I am confused
+    - am confused
+    - i'm confused
+    - i'm confuse 
+    - i am confuse 
+    - Can I get more guidance?
+    - Can I get more guidance
+    - I still need help
+    - I want more support
+    - Can you explain more?
+    - Can you explain more
+    - I need further assistance
+    - Can I get help from someone?
+    - Can I get help from someone
+    - I need to talk to my teacher
+    - Help me more
+    - I don’t get it
+    - This is not clear to me
+    - I didn’t understand
+    - Please make it clearer
+    - I need clarification
+    - I’m lost
+    - This is confusing
+    - Can you guide me better?
+    - Can you guide me better
+    - I want more details
+    - Can I ask my teacher about this?
+    - Can I ask my teacher about this
+    - What should I do if I don’t understand?
+    - What should I do if I don’t understand
+
+- intent: irrelevant
+  examples: |
+    - I want to talk about football
+    - tell me a joke
+    - what is your favorite food?
+    - sing me a song
+    - I am bored
+    - let’s chat
+    - do you love me?
+    - can we be friends?
+    - what’s your age?
+    - are you single?
+    - what do you like?
+    - I just want to play
+    - random text
+    - nonsense
+    - blah blah blah
+    - asdfghjkl
+    - 12345
+    - irrelevant message
+    - off topic
+    - tell me something
+    - I am tired
+    - do you have feelings?
+    - I am hungry
+    - what is your favorite color?
+    - talk to me
+    - I want to relax
+    - what games do you play?
+    - I need entertainment
+    - can you talk to me?
+    - just chatting
+    - fun stuff
+    - tell me a story
+    - what’s trending today
+    - do you watch movies
+    - recommend me a movie
+    - what music do you like
+    - tell me about sports
+    - who is your favorite actor
+    - can you dance
+    - show me a picture
+    - do you have pets
+    - I am bored at home
+    - let’s play a game
+    - talk about politics
+    - what is the weather today
+    - I am sleepy
+    - teach me something random
+    - tell me a secret
+    - I want to laugh
+    - guess a number
+    - do you know jokes
+    - I am just testing
+    - I like cats
+    - tell me about dogs
+    - random question
+    - nonsense talk
+    - I want fun
+    - chai, I tire
+    - ehn, I just dey
+    - I wan play
+    - make we gist
+    - na wah oo
+    - I dey here
+    - you dey hear me
+    - I dey hungry
+    - how you see am
+    - na lie
+    - I no sabi
+    - I dey try
+    - I dey craze
+    - wetin be this
+    - abeg no vex
+    - I dey feel am
+    - I dey chop
+    - I dey sleep
+    - I dey waka
+    - I dey learn
+    - I dey hia
+    - get out
+    - ur fada 
+    - ur mama
+    - ur father
+    - ur mother
+    - your father
+    - your mother
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+    - bye bye
+    - see you later
+    - see you soon
+    - talk to you later
+    - catch you later
+    - take care
+    - later
+    - i'm leaving
+    - i'm out
+    - i gotta go
+    - gotta run
+    - i'm off
+    - peace
+    - peace out
+    - catch you
+    - till next time
+    - see ya
+    - ttyl
+    - c ya
+    - farewell
+    - adieu
+    - god bless
+    - stay safe
+    - i'm done
+    - signing off
+    - i'm gone
+    - i'm off for now
+    - i have to go
+    - catch you later alligator
+    - after a while crocodile
+    - i'm heading out
+    - i'll talk to you later
+    - take it easy
+    - have a good day
+    - have a great day
+    - have a nice day
+    - have a nice one
+    - see you tomorrow
+    - see you next time
+    - till then
+    - bye for now
+    - alright, bye
+    - ok bye
+    - laters
+    - i'll be back
+    - i'm logging off
+    - i'm signing out
+    - have a blessed day
+    - see you around
+    - stay blessed
+    - catch you soon
+    - safe journey
+    - take care of yourself
+    - all the best
+    - take it easy bro
+    - take it easy sis
+    - i'm outta here
+    - i'll catch you later
+    - bye my friend
+    - bye guys
+    - bye everyone
+    - bye for now friends
+    - i'm off now
+    - i have to leave
+    - i need to go
+    - i must go
+    - i'm leaving now
+    - time to go
+    - i'll see you around
+    - i'll see you soon
+    - catch you laters
+    - take care friends
+    - bye na
+    - i dey go
+    - i dey waka now
+    - i dey leave
+    - i dey go now
+    - make we see later
+    - make we yarn later
+    - i dey go chop
+    - i dey go house
+    - i dey go now
+    - i go later
+    - i go see you later
+    - abeg, i dey go
+    - i don dey go
+    - i don waka
+    - i dey off
+    - i dey sign out
+    - i dey leave now
+    - i dey waka go
+    - i dey go now o
+    - i dey go o
+    - i dey go oo
+    - i dey go oo now
+    - i dey go small
+    - i go catch you later
+    - i go see you later
+    - i go yarn you later
+    - i go holla you later
+    - make we catch up later
+    - i go sign out
+    - i go log off
+    - i go waka go
+    - i go commot
+    - i dey commot
+    - i dey exit
+    - i dey finish now
+    - i dey end now
+    - i dey go finish
+    - i dey go now make we see
+    - i dey go now make we yarn
+    - i go later make we see
+    - i go later make we yarn
+    - i dey gbadun, but i go
+    - i dey gbadun, but i must go
+    - i dey gbadun, i go later
+    - i dey gbadun, see you later
+    - i dey gbadun, take care
+    - i dey gbadun, god bless
+    - i dey gbadun, stay safe
+    - i dey gbadun, stay blessed
+    - i dey gbadun, till next time
+    - i dey gbadun, catch you later
+    - i dey gbadun, bye
+    - i dey gbadun, bye bye
+    - i dey gbadun, laters
+    - i dey gbadun, peace
+    - i dey gbadun, peace out
+    - i dey gbadun, ttyl
+    - i dey gbadun, alright bye
+    - i dey gbadun, take it easy
+    - i dey gbadun, have a good day
+    - i dey gbadun, have a nice day
+    - i dey gbadun, see you soon
+    - i dey gbadun, see ya
+    - i dey gbadun, bye my friend
+    - i dey gbadun, bye guys
+    - i dey gbadun, bye everyone
+    - i dey gbadun, i must go now
+    - i dey gbadun, i gotta run
+    - i dey gbadun, i'm off
+    - i dey gbadun, i'm leaving
+    - i dey gbadun, i go
+    - i dey gbadun, i go now
+    - i dey gbadun, i dey go now
+    - i dey gbadun, i dey waka
+    - i dey gbadun, i dey waka now
+    - i dey gbadun, i dey sign out
+    - i dey gbadun, i dey log off
+    - i dey gbadun, i dey commot
+    - i dey gbadun, i dey exit
+    - i dey gbadun, i dey finish
+    - i dey gbadun, i dey end
+    - i dey gbadun, i dey go chop
+    - i dey gbadun, i dey go house
+    - i dey gbadun, i go catch you later
+    - i dey gbadun, i go see you later
+    - i dey gbadun, i go yarn you later
+    - i dey gbadun, i go holla you later
+    - i dey gbadun, i go later make we see
+    - i dey gbadun, i go later make we yarn
+    - i dey gbadun, i go log off
+    - i dey gbadun, i go sign out
+    - i dey gbadun, i go waka go
+    - i dey gbadun, i go commot
+    - i dey gbadun, i go exit
+    - i dey gbadun, i go finish
+    - i dey gbadun, i go end
+    - i dey gbadun, i go home
+    - i dey gbadun, i go sleep
+    - i dey gbadun, i go chop food
+    - i dey gbadun, i go rest
+    - i dey gbadun, i go later
+    - i dey gbadun, i must leave now
+    - i dey gbadun, i must go
+    - i dey gbadun, i need to go
+    - i dey gbadun, i need to leave
+    - i dey gbadun, i'm outta here
+    - i dey gbadun, i'm gone
+    - i dey gbadun, i'm logging off
+    - i dey gbadun, i'm signing out
+    - i dey gbadun, i gotta leave
+    - i dey gbadun, i gotta go

@@ -1,0 +1,73 @@
+version: "3.1"
+
+rules:
+
+- rule: say goodbye anytime the user decline learning offer
+  steps:
+  - intent: stop
+  - action: utter_stop
+
+- rule: always ask if the user would want to continue learning anytime they reject codm offer
+  steps:
+  - intent: reject
+  - action: utter_reject
+
+- rule: Show fundamental Example
+  steps:
+  - intent: accept2
+  - action: utter_accept2_principles
+
+- rule: Show CODM backup example
+  steps:
+  - intent: accept7
+  - action: utter_accept7_backup
+
+- rule: Show CODM network example
+  steps:
+  - intent: accept8
+  - action: utter_accept8_network
+
+- rule: Show CODM hashing example
+  steps:
+  - intent: accept4
+  - action: utter_accept4_hashing
+
+- rule: show CODM vulnerabilities example
+  steps:
+  - intent: accept9
+  - action: utter_accept9_vulnerabilities
+
+- rule: show CODM cybersecurity explanation
+  steps:
+  - intent: cybersecurity
+  - action: utter_cybersecurity
+
+- rule: show CODM encryption example
+  steps:
+  - intent: accept3
+  - action: utter_accept3_encryption
+
+- rule: talk about developer only when asked
+  steps:
+  - intent: developer
+  - action: utter_developer
+
+- rule: talk about who named you only when asked
+  steps:
+  - intent: namer
+  - action: utter_namer
+
+- rule: escalate to a traditional intructor when asked for further assistance
+  steps:
+  - intent: assistance
+  - action: utter_assistance
+
+- rule: remind the user on your purpose only when they go outside borders
+  steps:
+  - intent: irrelevant
+  - action: utter_irrelevant
+
+- rule: say goodbye only when the user says so
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

@@ -1,0 +1,50 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cybersecurity\"}}]": "utter_cybersecurity",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cybersecurity\"}}, {\"prev_action\": {\"action_name\": \"utter_cybersecurity\"}, \"user\": {\"intent\": \"cybersecurity\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"reject\"}}]": "utter_reject",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"reject\"}}, {\"prev_action\": {\"action_name\": \"utter_reject\"}, \"user\": {\"intent\": \"reject\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept2\"}}]": "utter_accept2_principles",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept2\"}}, {\"prev_action\": {\"action_name\": \"utter_accept2_principles\"}, \"user\": {\"intent\": \"accept2\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept4\"}}]": "utter_accept4_hashing",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept4\"}}, {\"prev_action\": {\"action_name\": \"utter_accept4_hashing\"}, \"user\": {\"intent\": \"accept4\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept8\"}}]": "utter_accept8_network",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept8\"}}, {\"prev_action\": {\"action_name\": \"utter_accept8_network\"}, \"user\": {\"intent\": \"accept8\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}]": "utter_accept7_backup",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}, {\"prev_action\": {\"action_name\": \"utter_accept7_backup\"}, \"user\": {\"intent\": \"accept7\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept9\"}}]": "utter_accept9_vulnerabilities",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept9\"}}, {\"prev_action\": {\"action_name\": \"utter_accept9_vulnerabilities\"}, \"user\": {\"intent\": \"accept9\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"stop\"}}]": "utter_stop",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"stop\"}}, {\"prev_action\": {\"action_name\": \"utter_stop\"}, \"user\": {\"intent\": \"stop\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept3\"}}]": "utter_accept3_encryption",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept3\"}}, {\"prev_action\": {\"action_name\": \"utter_accept3_encryption\"}, \"user\": {\"intent\": \"accept3\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}, {\"prev_action\": {\"action_name\": \"utter_accept7_backup\"}, \"user\": {\"intent\": \"accept7\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept3\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cybersecurity\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cybersecurity\"}}, {\"prev_action\": {\"action_name\": \"utter_cybersecurity\"}, \"user\": {\"intent\": \"cybersecurity\"}}]",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"reject\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept4\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept2\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept8\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept9\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept2\"}}, {\"prev_action\": {\"action_name\": \"utter_accept2_principles\"}, \"user\": {\"intent\": \"accept2\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"reject\"}}, {\"prev_action\": {\"action_name\": \"utter_reject\"}, \"user\": {\"intent\": \"reject\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept4\"}}, {\"prev_action\": {\"action_name\": \"utter_accept4_hashing\"}, \"user\": {\"intent\": \"accept4\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept8\"}}, {\"prev_action\": {\"action_name\": \"utter_accept8_network\"}, \"user\": {\"intent\": \"accept8\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"stop\"}}, {\"prev_action\": {\"action_name\": \"utter_stop\"}, \"user\": {\"intent\": \"stop\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"stop\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept7\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept3\"}}, {\"prev_action\": {\"action_name\": \"utter_accept3_encryption\"}, \"user\": {\"intent\": \"accept3\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"accept9\"}}, {\"prev_action\": {\"action_name\": \"utter_accept9_vulnerabilities\"}, \"user\": {\"intent\": \"accept9\"}}]"
+    ]
+  }
+}

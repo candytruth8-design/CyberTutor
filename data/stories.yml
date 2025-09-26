@@ -1,0 +1,88 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+- story: option 1
+  steps:
+  - intent: accept
+  - action: utter_accept_cybersecurity
+  - action: utter_continue_learning
+  - intent: start
+  - action: utter_start
+
+- story: option 2
+  steps:
+  - intent: principles
+  - action: utter_principles 
+  - intent: start
+  - action: utter_start
+
+- story: option 3
+  steps:
+  - intent: encryption
+  - action: utter_encryption
+  - intent: start
+  - action: utter_start
+
+- story: option 4
+  steps:
+  - intent: hashing
+  - action: utter_hashing
+  - intent: start
+  - action: utter_start
+
+- story: option 5
+  steps:
+  - intent: authentication
+  - action: utter_authentication
+  - intent: accept5
+  - action: utter_accept5_authentication 
+  - action: utter_continue_learning
+  - intent: start
+  - action: utter_start
+
+- story: option 6
+  steps:
+  - intent: authorization
+  - action: utter_authorization 
+  - intent: accept6 
+  - action: utter_accept6_authorization
+  - action: utter_continue_learning
+  - intent: start
+  - action: utter_start  
+
+- story: option 7
+  steps:
+  - intent: backup
+  - action: utter_backup  
+  - intent: start
+  - action: utter_start
+
+- story: option 8
+  steps:
+  - intent: network
+  - action: utter_network 
+  - intent: start
+  - action: utter_start
+
+- story: option 9
+  steps:
+  - intent: vulnerabilities
+  - action: utter_vulnerabilities
+  - intent: start
+  - action: utter_start
+
+- story: option 10
+  steps:
+  - intent: threat
+  - action: utter_threat
+  - intent: accept0 
+  - action: utter_accept0_threat
+  - action: utter_continue_learning
+  - intent: start
+  - action: utter_start

@@ -1,0 +1,61 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "accept": 0,
+        "accept2": 1,
+        "accept3": 2,
+        "accept4": 3,
+        "back": 4,
+        "cybersecurity": 5,
+        "encryption": 6,
+        "greet": 7,
+        "hashing": 8,
+        "nlu_fallback": 9,
+        "out_of_scope": 10,
+        "principles": 11,
+        "reject": 12,
+        "restart": 13,
+        "session_start": 14,
+        "start": 15,
+        "stop": 16
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_accept2_principles": 13,
+        "utter_accept3_encryption": 14,
+        "utter_accept4_hashing": 15,
+        "utter_accept_cybersecurity": 16,
+        "utter_continue_learning": 17,
+        "utter_cybersecurity": 18,
+        "utter_encryption": 19,
+        "utter_greet": 20,
+        "utter_hashing": 21,
+        "utter_principles": 22,
+        "utter_reject": 23,
+        "utter_start": 24,
+        "utter_stop": 25
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

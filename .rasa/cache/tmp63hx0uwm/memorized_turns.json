@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BCSdnFpQUkvAkNKSktSieIja+OTKpNSi4tTk0qLMkkrcJsYCAAvGO44=": "utter_continue_learning",
+    "eJyljEEKgDAMBL/SB/gCvyISalgkoFHSVJDi363oVTx422GH6crRhLIaNorssmgbyj1I44w2PDBJcmh1c4JVR7SiXzdj9eMjkt1hdLvE+wBL4Gzi+78iL+qiGTQhmoqO77n+BCZyWfY=": "action_listen",
+    "eJylj1EKgzAQRK+SA3gCr1LKki5DWdBVNpOCBO9uiv4L7d8M83gwj7YPqa2Bj2SlLT6mdgbxPGNMV5msEN7ZWhCdMe+V31mxcr+RVBIhJyu6vRAFWsO4/WfUxWleIRNyuPn7V93Ny8Ic3fE8AIBpc+E=": "utter_start",
+    "eJylj1EKAjEMRK/SA3iCvYpIqGGQwJpd0qmwlL27lforK/qXYR6Pybntp9TWwEOy0hafUhuHeL5jSu8wWyG8s7UgOmPeI1+1YuV+IKkkQgYrul0RBVrDuP1n1MVpXiEzcrj57VfdwZeFOb6cNNBPhssTpcWNIQ==": "action_listen",
+    "eJyFjEEKgDAMBL/SB/gCvyISSo0QqDGkqZfSvxupV/G2szvs0voUmiheEJPRyXNoIwDHA+fwQqZiyO7WguoOsaM9c0Kx/nNSzVBhuLBX3rxlixlEiRNJxvJ9vd47TD8o": "utter_continue_learning",
+    "eJyljMsJwzAQRFtRAa7ArQSzCGUcFpSxWK18Ee49MvY15JDbfB7v0Y8p9GLYJSbXjXPoVxDGN+Zwl6zVwcG2ChuMclQ/74Tixw9Jc4fJxcra+BwrPWYppkxaMup/6rTRlQ2SEY3K13fd8gFyjV2Q": "action_listen",
+    "eJylj0EKwzAMBL/iB+QF+UopQjhqELgbI8u9mPy9Kuk9kNy0u8OAHmOf0qgmH+LsumFO4zgI/JY5/UPR5oJgexMLRhHRf3OW6vuJpLuL0cHSq2OJFs6Fqimy1iLtnjpvcEUXKsIGxXpVd/Juc7ZwPL/Be3d7": "utter_start",
+    "eJylj0EKwzAMBL/iB+QF+UoJQrhqELgbI8u9mPw9Lu61JLQ3rTQM2lvbp9CyyYs4um6YQxsDgZ8yh09IWlzQ2VrEOqPo0d/nKNn3E0l1F6PB0qPi3rdwTpRNETUnKf+p4wZXVKEkbFCsv+pO6hZnu/jSQL8ZlgPUmpC7": "action_listen",
+    "eJwtytEJwCAMRdFVMkAncJVSRGwKAfsUjf0J7t5A+3cvnN3WRtY6PzFllYpA9kVEujnQP0WGMtzOwd2NwFcDXROnO2gqsXVBllZ4rHW8+2EilQ==": "utter_fundamental_principles",
+    "eJyNjUEKgDAMBL+SB/iCfkUklBohUGNJUy+lfzegV9HbDszuzn1M0IvSiTEZHxKg3wEl7hTggczVSNxtldQdFkcLsDVZ3ROLGYuyJC6Z6vgYbWak+NL9/bFcGrNJxw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjlEKgCAQBa+yB+gEXiVCSh4h1BbrGojs3RPsX+jvDQzDm6tNVG/B49eg8WJHtQ/P6wlHHxwxKbi5OUGaE7mhOtoFUBs0sirEd/VfYfAilA2SELJELWbLCzD7UeE=": "utter_cybersecurity",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVyZVJqUXFqcmlRZkllcS5BlULIRNjAYRWcd8=": "action_listen"
+  }
+}

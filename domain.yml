@@ -1,0 +1,361 @@
+version: "3.1"
+
+intents:
+  - greet
+  - accept
+  - reject
+  - start
+  - stop 
+  - cybersecurity
+  - principles 
+  - accept2 
+  - encryption
+  - accept3
+  - hashing
+  - accept4
+  - authentication
+  - accept5
+  - authorization
+  - accept6
+  - backup
+  - accept7
+  - network
+  - accept8
+  - vulnerabilities
+  - accept9
+  - threat
+  - accept0
+  - developer
+  - namer
+  - assistance
+  - irrelevant
+  - goodbye
+
+responses:
+  utter_greet:
+  - text: | 
+      Hey 👋, I’m Your Personal Assistant Cyber Tutor.  
+      Below are the topics i offer. What do you want to learn today?  
+
+      👉 Just Type The First Word Of The Topic To Begin  
+      ✅ Cybersecurity  
+      ✅ Fundamental Principles Of Cybersecurity  
+      ✅ Encryption  
+      ✅ Hashing  
+      ✅ Authentication
+      ✅ Authorization
+      ✅ Backup
+      ✅ Network 
+      ✅ Vulnerabilities  
+      ✅ Threat
+
+  utter_cybersecurity:
+  - text: |
+     Cybersecurity is the practice of keeping systems, networks, and data safe from attacks or unauthorized access.
+     It is what protects people from hackers who may try to steal information, spread viruses, or disrupt services.  
+     In simple terms, cybersecurity is like building a strong lock and wall around your digital world — your phone, laptop, bank apps, or even social media.  
+     Without cybersecurity, private information could be exposed, accounts could be taken over, or systems could stop working.  
+
+
+     Would you like me to expand this using a Call of Duty Mobile (CODM) example? 🎮
+
+  utter_accept_cybersecurity:
+  - text: |
+     In a Call of Duty Mobile (CODM) match: your teammates represent your personal data and devices, while enemies can be seen as hackers who are trying to take them out.  
+     The OP player (most skilled player) on your team takes the role of cybersecurity — setting traps, blocking enemy fire, and watching every angle to keep everyone safe.  
+     Without that defender, the team would be vulnerable and could lose quickly. But with strong defense, the whole team survives and keeps playing.  
+     That’s exactly what cybersecurity does in real life — it defends your digital world so your information and systems stay protected.  
+  
+  utter_continue_learning:
+  - text: |
+      Would you like to learn another topic?  
+      👉Type **Y** for Yes or **N** for No.
+
+  utter_reject:
+  - text: |
+      No problem 👍.Would you like to learn another topic?  
+      👉Type **Y** for Yes or **N** for No.
+
+  utter_start:
+  - text: |
+      Great choice 🎉! Let’s keep going.  
+      Here’s the list again, please type the first word to continue learning:  
+
+      ✅ Cybersecurity  
+      ✅ Fundamental Principles Of Cybersecurity  
+      ✅ Encryption  
+      ✅ Hashing  
+      ✅ Authentication
+      ✅ Authorization
+      ✅ Backup
+      ✅ Network 
+      ✅ Vulnerabilities  
+      ✅ Threat
+
+  utter_principles:
+  - text: |
+       The fundamental principles of cybersecurity are built around the **CIA** triad:  
+
+       **C**- Confidentiality: making sure information is only seen by the right people.  
+       **I**- Integrity: ensuring the information remains correct and unchanged by others.  
+       **A**- Availability: keeping systems and information accessible when needed.  
+
+       Would you like me to give you a CODM example for better understanding? 🎮
+       
+       👉 Type **F** for Example. If you don’t want it, just type **no**.
+
+  utter_accept2_principles:
+  - text: |
+       🎮Confidentiality in CODM, is like turning on your mic only for your teammates when planning a strategy.  
+        That way, enemies or outsiders can’t hear your plans.  
+
+        🎮Integrity in CODM, is like recording what you and your teammates discussed during the match.  
+        If someone tries to twist your words, you can always prove exactly what was said.  
+
+        🎮Availability in CODM, this is like making sure your sensitivity settings or game controls are always available and working.  
+        You can also share them with teammates.  
+        By storing these settings in the cloud, you can access them anytime from any device.
+        ✅ Just like these CODM strategies protect your team, the CIA principles in cybersecurity protect information from being exposed, altered, or lost.
+
+
+        Would you like to learn another topic?  
+       👉Type **Y** for Yes or **N** for No.
+
+  utter_encryption: 
+  - text: |
+      **🔐Encryption** 
+      is the process of converting information into a secret code so that only people with the right key can read it.  
+
+      Imagine you write a message in plain English — anyone can read it.  
+      But if you scramble it using encryption, it turns into unreadable text that looks like random symbols.  
+      To make sense of it again, the receiver needs the correct key to “unlock” the message.  
+
+      This is very important in cybersecurity because it protects sensitive data like passwords, bank details, or private messages from being stolen or exposed.  
+      ✅ Without encryption, anyone who gets hold of your data can read it. With encryption, even if attackers steal it, it remains useless without the key.  
+      
+
+      Would you like me to give you a CODM example for better understanding? 🎮
+      👉 Type **E** for Example. If you don’t want it, just type **no**.
+
+  utter_accept3_encryption:
+  - text: |
+      🎮 Awesome! Let’s look at **Encryption** in CODM terms.  
+
+      In CODM, when you turn on your mic and set it to “team only,” your voice is restricted to your teammates.  
+      The game makes sure that whatever you say is sent securely, almost like it’s being **encrypted**.  
+      Outsiders, enemies, or random players cannot hear your strategy — only your squad can.  
+
+      Even if someone tries to tap into the communication, all they would get is noise without the right “key” to unlock your voice data.  
+
+      ✅ Just like in cybersecurity, encryption protects sensitive information. 
+      It ensures only the intended people (your teammates) can understand the message, while others are locked out.
+
+
+      Would you like to learn another topic?  
+      👉Type **Y** for Yes or **N** for No.
+
+  utter_hashing:
+  - text: |
+      **🔐Hashing**
+      is the process of taking any information—like a password or message—and converting it into a fixed-length string of characters that looks like random symbols 🔢🌀.
+
+      Imagine your password is "codemaster123". Hashing scrambles it into something like "a8b9c1d2e3f4..." that **cannot easily be turned back** into the original password 🔒❌.
+
+      This is very important in cybersecurity because it protects sensitive data 🛡️💾.  
+      ✅ Even if attackers see the hash, they **cannot figure out your original password** easily 👀🚫.
+
+      Would you like me to give you a CODM example for better understanding? 🎮  
+      👉 Type **H** for Example. If you don’t want it, just type **no** ✋.
+
+  utter_accept4_hashing:
+  - text: |
+     🎮 **CODM Scenario: Hashing**
+     When you log in to CODM, your password isn’t stored as plain text. Instead, it’s saved as a **hash** 🔐🌀.  
+
+     This means even if someone hacks the game’s server, they **cannot transform it back** into your original password 🔒❌.  
+
+     Imagine you’ve just leveled up and earned 500 XP 🏆. Your account info, including your password, is safe because hashing keeps it secure 🛡️💾.  
+
+     ✅ Thanks to hashing, you can enjoy the game without worrying about hackers stealing your login details 👀🚫.
+
+
+      Would you like to learn another topic?  
+      👉Type **Y** for Yes or **N** for No.
+
+  utter_authentication:
+  - text: |
+      🛡️ **Authentication** 
+      is the process of verifying that someone is really who they claim to be 🔍✅.  
+
+      When you log in to a system or game, authentication checks your identity before giving you access 🔑.  
+
+      This is very important in cybersecurity because it **prevents unauthorized people from accessing your account or data** 🚫💾.  
+      ✅ Without authentication, anyone could pretend to be you and steal your information.  
+
+      Would you like me to give you a CODM example for better understanding? 🎮  
+      👉 Type **A** for Example. If you don’t want it, just type **no** ✋.
+  
+  utter_accept5_authentication:
+  - text: |
+      🎮 **CODM Scenario: Authentication**  
+      When playing CODM, your teammates have a **label on their head** 🏷️, showing that they are your allies.  
+
+      Only those with this label are recognized as teammates ✅, while everyone else is treated as the enemy 🚫💀.  
+
+      This is similar to authentication in cybersecurity: the system verifies who is allowed in and who is not 🛡️💻.  
+      ✅ Thanks to authentication, you can safely play without worrying about impostors sneaking into your team. 
+
+  utter_authorization:
+  - text: |
+      🗝️ **Authorization**  
+      is the process of determining what a verified user is **allowed to do** in a system 🔓📋.  
+
+      After authentication confirms your identity, authorization decides your **permissions and access levels** ✅.  
+
+      This is very important in cybersecurity because it ensures users **can only access the resources they are allowed to** 🚫💾.  
+      ✅ Without proper authorization, someone might see or modify data they shouldn’t.  
+
+      Would you like me to give you a CODM example for better understanding? 🎮  
+      👉 Type **Z** for Example. If you don’t want it, just type **no** ✋.
+
+  utter_accept6_authorization:
+  - text: |
+      🎮**CODM Scenario: Authorization**  
+      Imagine you are playing CODM. Only players that have the **teammate tag** 🏷️ above their head can access the information you share through the mic 🎤✅.  
+
+      Even if someone logs in with a valid account but **doesn’t have the tag**, they **cannot hear your voice or access your shared info** 🚫👂.  
+
+      ✅ This is like authorization in cybersecurity: it makes sure users can only access what they are **allowed to see or use** 🛡️💻.
+
+  utter_backup:
+  - text: |
+      💾**Backup**  
+      is the process of making a copy of your important data so it can be restored if something goes wrong 🛡️📂.  
+
+      Backups are very important in cybersecurity because they **protect your information from loss** due to accidents, hacks, or device failure ⚠️💻.  
+      ✅ Without backups, losing your data can be permanent.  
+
+      Would you like me to give you a CODM example for better understanding? 🎮  
+      👉 Type **L** for Example. If you don’t want it, just type **no** ✋
+
+  utter_accept7_backup:
+  - text: |
+      🎮**CODM Scenario: Backup**  
+      Hey, when you link your CODM account to Google or Activision 🌐, your **settings, sensitivity, and controls** are automatically backed up in the cloud ☁️🎮.  
+
+      This means if you switch to a new phone or device 📱💻, you can **access your account exactly how you left it**, without losing progress ✅.  
+
+      ✅ Just like in cybersecurity, backups keep your data safe and **accessible from anywhere** 🛡️💾.  
+      
+
+      Would you like to learn another topic?  
+      👉Type **Y** for Yes or **N** for No.
+
+  utter_network:
+  - text: |
+      🌐**Network**  
+      is the system that allows computers and devices to **connect and communicate** with each other 📡💻.  
+
+      Networks are very important in cybersecurity because they **enable data transfer and online interactions securely** 🔐💾.  
+      ✅ Without networks, devices cannot share information or access online services.  
+
+      Would you like me to give you a CODM example for better understanding? 🎮  
+      👉 Type **M** for Example. If you don’t want it, just type **no** ✋
+
+  utter_accept8_network:
+  - text: |
+      🎮 **CODM Scenario: Network**  
+      When everyone connects to the internet 🌐 and plays CODM, the **network makes it possible** for all your interactions and virtual actions to happen in real-time 🕹️💥.  
+
+      You can see your teammates move, chat, and coordinate strategies 🔊🤝, while the network ensures everything stays connected and synchronized ✅.  
+
+      ✅ Just like in cybersecurity, a strong and secure network allows smooth communication and actions between devices 🛡️💻.
+    
+      Would you like to learn another topic?  
+      👉Type **Y** for Yes or **N** for No.
+
+  utter_vulnerabilities:
+  - text: |
+      ⚠️**Vulnerabilities** 
+      are weaknesses or flaws in a system that **can be exploited by attackers** 🕵️‍♂️💻.  
+
+      Understanding vulnerabilities is important in cybersecurity because it **helps prevent attacks and protect data** 🛡️💾.  
+      ✅ Without addressing vulnerabilities, systems are at risk of being compromised.  
+
+      Would you like me to give you a CODM example for better understanding? 🎮  
+      👉 Type **V** for Example. If you don’t want it, just type **no** ✋
+
+  utter_accept9_vulnerabilities:
+  - text: |
+      🎮 **CODM Scenario: Vulnerabilities**  
+      Imagine you rush a full squad and you’re **out in the open with no cover** 🏞️💀. the enemies could esily take advantage of that and send you back to your lobby. 
+
+      This is like a vulnerability in cybersecurity: **attackers can easily exploit your weakness** and take you down 🔫🚫.  
+
+      ✅ Just like in the game, recognizing your vulnerabilities allows you to **protect yourself and plan better** 🛡️🎯.
+
+
+      Would you like to learn another topic?  
+      👉Type **Y** for Yes or **N** for No.
+
+  utter_threat:
+  - text: |
+      ⚠️**Threat** 
+      is any person, event, or action that has the potential to **cause harm to a system or data** 💻🔥.  
+
+      Understanding threats is important in cybersecurity because it **helps you prepare and defend against attacks** 🛡️💾.  
+      ✅ Ignoring threats can leave systems and information at risk.  
+
+      Would you like me to give you a CODM example for better understanding? 🎮  
+      👉 Type **W** for Example. If you don’t want it, just type **no** ✋
+
+  utter_accept0_threat:
+  - text: |
+      🎮 **CODM Scenario: Threat**  
+      Imagine you see an opponent who is **insanely skilled with a shotgun** 🔫😱.  
+
+      They can **single-handedly wipe your squad** if you’re not careful 💀🚫.  
+
+      ✅ Just like in cybersecurity, recognizing threats early allows you to **plan, defend, and stay safe** 🛡️🎯.
+
+  utter_developer:
+  - text: |
+      Cyber Tutor was developed by **Candy Truth**, popularly known as **Rejoice**.  
+      He is a future billionaire who studied at **Dennis Osadebay University (DOU)**.  
+      Cyber Tutor was officially created on **September 4th, 2025**.
+
+
+      Ah! I was hoping someone would ask 😊.  
+        Remember: **put God first in everything you do**.  
+        Without God, you can never achieve anything
+
+  utter_namer:
+  - text: |
+      The name **Cyber Tutor** was created by **Dr.Keyamo Clement**.  
+      An outstanding lecturer at **Dennis Osadebay University (DOU)**.  
+      The name was given as an inspiration on **April 21st, 2025**.
+
+  utter_assistance:
+  - text: |
+      I understand your concern. For more detailed assistance, please reach out to your **teacher**, who will provide you with further guidance.  
+      Cyber Tutor is here to support your learning, but your teacher will give you the best personalized explanation you need.
+
+  utter_irrelevant:
+  - text: |
+      I’m here to guide you through the learning process.  
+      Please follow the instructions carefully so you can get the best out of Cyber Tutor.  
+      Let’s stay focused on your lessons.
+
+  utter_goodbye:
+  - text: |
+      Goodbye! 🌟  
+      Remember, Put **God** first in everything you do, and success will surely follow.  
+      Until next time, take care and keep pushing forward!
+
+  utter_stop:
+  - text: "No problem 👍. Take a break, and whenever you’re ready, just come back and I’ll guide you again. Stay safe online!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

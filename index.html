@@ -1,0 +1,31 @@
+<script>
+!(function () {
+  let e = document.createElement("script"),
+    t = document.head || document.getElementsByTagName("head")[0];
+  e.src = "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js";
+  e.async = true;
+  e.onload = () => {
+    window.WebChat.default(
+      {
+        initPayload: '/greet',
+        customData: { language: "en" }, // data passed to Rasa
+        socketUrl: "http://localhost:5005", // local Rasa server
+        socketPath: "/socket.io/", 
+        title: "Cyber Tutor",
+        subtitle: "Your Cybersecurity Learning Assistant",
+        profileAvatar: "https://i.imgur.com/4M34hi2.png", // bot avatar
+        userAvatar: "https://i.imgur.com/6o5N3l2.png",   // user avatar
+        primaryColor: "#000000",  // black theme (matches your brand)
+        backgroundColor: "#ffffff", // white background
+        inputTextFieldHint: "Type your message...",
+        showCloseButton: true,
+        showMessageDate: true,
+        fullScreenMode: false,
+      },
+      null
+    );
+  };
+  t.insertBefore(e, t.firstChild);
+})();
+localStorage.clear();
+</script>
