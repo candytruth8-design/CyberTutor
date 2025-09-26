@@ -1,18 +1,17 @@
-# Use Python 3.10 explicitly
 FROM python:3.10-slim
 
 # Set working directory
 WORKDIR /app
 
-# Copy everything
+# Copy project files
 COPY . /app
 
-# Upgrade pip and install requirements
+# Upgrade pip and install dependencies
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-# Expose the port Rasa will run on
+# Expose default Rasa port (optional, can be mapped by host)
 EXPOSE 5005
 
-# Start Rasa backend
-CMD ["python", "-m", "rasa", "run", "--enable-api", "--port", "5005", "--host", "0.0.0.0"]
+# Run Rasa server letting host handle the ports
+CMD ["rasa", "run", "--enable-api", "--cors", "*", "--host", "0.0.0.0"]
